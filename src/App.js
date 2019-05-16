@@ -76,7 +76,7 @@ class App extends Component {
 
   render() {
     const key = "c72b3784423941dc9c71739cbbc51d41";
-    const url = `http://api.voicerss.org/?key=${key}&hl=${
+    const url = `//api.voicerss.org/?key=${key}&hl=${
       this.state.language
     }&src=${this.state.text}`;
     console.log(url);
